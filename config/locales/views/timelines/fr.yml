@@ -51,16 +51,17 @@ fr:
       add: Ajouter la référence
       be_first: Soyez le premier à ecrire une analyse
       best_comment: La meilleure analyse
-      categories: Article, Review, Méta-analyse, Livre, Thèse ou Lettre de réponse
-      category_0: Article
-      category_1: Review
-      category_2: Méta-analyse
-      category_3: Livre
-      category_4: Thèse
-      category_5: Lettre de réponse
+      categories: Article scientifique, Livre, Vidéo, Article de presse ou Article web
+      category_0: Article scientifique
+      category_1: Livre
+      category_2: Vidéo
+      category_3: Article de presse
+      category_4: Article web
       category_source_journal: Journal
       category_source_book: Editeur du livre
       category_source_univ: Université ou établissement d'accueil de la thèse
+      category_source_video: Chaîne
+      category_source_page_web: Site
       category_doi: DOI, PMID ou autre
       category_issn: ISSN, ISBN, ISNI, ARK ou autre
       doi_fac: "Identifiant unique (facultatif) : "

@@ -50,15 +50,16 @@ en:
       add: Add the reference
       be_first: Be the first to write an analysis
       best_comment: Best analysis
-      categories: Article, Review, Meta-analysis, Book or thesis
+      categories: Science Article, Book, Video, Journal Article or Web Article
       category_0: Article
-      category_1: Review
-      category_2: Meta-analysis
-      category_3: Book
-      category_4: Thesis
+      category_1: Book
+      category_2: Video
+      category_3: Journal Article
+      category_4: Web Article
       category_source_journal: !!Journal
       category_source_book: Editor of the book
       category_source_univ: !!University or hosting institution for the thesis
+      category_source_video: Channel
       category_doi: DOI, PMID or else
       category_issn: ISSN, ISBN, ISNI, ARK or else
       doi_fac: "Unique identifier (optional): "

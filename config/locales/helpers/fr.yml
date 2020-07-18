@@ -24,6 +24,7 @@ fr:
     meta: cette méta-analyse
     book: ce livre
     phd: cette thèse
+    video: cette vidéo
     category_explanation_intro: |-
       L'introduction doit permetter au lecteur de situer %{category} dans
                                     la controverse et d'amorcer en douceur son analyse.
@@ -50,20 +51,6 @@ fr:
     category_hash_article_5: Remarques sur l'article
     category_hash_article_6: Titre de l'article
     category_hash_article_7: Figure
-    category_hash_review_0: Résumé de la review
-    category_hash_review_3: Rigueur de la review
-    category_hash_review_4: Ce que cette review apporte au débat
-    category_hash_review_5: Remarques sur la review
-    category_hash_review_6: Titre de la review
-    category_hash_review_7: Figure
-    category_hash_meta_0: Introduction à la méta-analyse
-    category_hash_meta_1: Expériences de la méta-analyse
-    category_hash_meta_2: Résultats de la méta-analyse
-    category_hash_meta_3: Rigueur de la méta-analyse
-    category_hash_meta_4: Ce que cette méta-analyse apporte au débat
-    category_hash_meta_5: Remarques sur la méta-analyse
-    category_hash_meta_6: Titre de la méta-analyse
-    category_hash_meta_7: Figure
     category_hash_book_0: Introduction au livre
     category_hash_book_1: Résumé et résultats du livre
     category_hash_book_3: Rigueur du livre
@@ -71,19 +58,16 @@ fr:
     category_hash_book_5: Remarques sur le livre
     category_hash_book_6: Titre du Livre
     category_hash_book_7: Figure
-    category_hash_phd_0: Introduction à la thèse
-    category_hash_phd_1: Résumé et résultats de la thèse
-    category_hash_phd_3: Rigueur de la thèse
-    category_hash_phd_4: Ce que cette thèse apporte au débat
-    category_hash_phd_5: Remarques sur cette thèse
-    category_hash_phd_6: Intitulé de la thèse
-    category_hash_phd_7: Figure
-    category_hash_letter_0: Résumé de la lettre de réponse
-    category_hash_letter_3: Rigueur de la lettre de réponse
-    category_hash_letter_4: Ce que cette lettre de réponse apporte au débat
-    category_hash_letter_5: Remarques sur la lettre de réponse
-    category_hash_letter_6: Titre de la lettre de réponse
-    category_hash_letter_7: Figure
+    category_hash_video_0: Résumé de la vidéo
+    category_hash_video_3: Rigueur de la vidéo
+    category_hash_video_4: Ce que la vidéo apport au débat
+    category_hash_video_5: Remarques sur la vidéo
+    category_hash_video_6: Titre de la vidéo
+    category_hash_page_web_0: Résumé de l'article
+    category_hash_page_web_3: Rigueur de l'article
+    category_hash_page_web_4: Ce que cet article apporte au débat
+    category_hash_page_web_5: Remarques sur l'article
+    category_hash_page_web_6: Titre de l'article
     meta_description: ControverSciences est un portail collaboratif et indépendant
       qui rassemble les publications scientifiques autour de questions controversées,
       en les rendant accessible à tous.
