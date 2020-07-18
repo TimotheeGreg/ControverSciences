@@ -16,14 +16,16 @@ class UsersController < ApplicationController
   end
 
   def checkemail
-    mydomain = params[:user].partition("@")[2]
-    Domain.all.pluck(:name).each do |domain|
-      if mydomain.include? domain
-        render body: nil, :status => 200, :content_type => 'text/html'
-        return true
-      end
-    end
-    render body: nil, :status => 409, :content_type => 'text/html'
+    # mydomain = params[:user].partition("@")[2]
+    # Domain.all.pluck(:name).each do |domain|
+    #   if mydomain.include? domain
+    #     render body: nil, :status => 200, :content_type => 'text/html'
+    #     return true
+    #   end
+    # end
+    # render body: nil, :status => 409, :content_type => 'text/html'
+    render body: nil, :status => 200, :content_type => 'text/html'
+    return true
   end
 
   def index

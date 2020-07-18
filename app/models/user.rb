@@ -65,18 +65,19 @@ class User < ApplicationRecord
   validate :email_domain
 
   def email_domain
-    mydomain = self.email.partition("@")[2]
+    #mydomain = self.email.partition("@")[2]
     if self.activated?
       return true
     end
-    Domain.all.pluck(:name).each do |domain|
-      if mydomain.include? domain
-        return true
-      end
-    end
+    #Domain.all.pluck(:name).each do |domain|
+    #  if mydomain.include? domain
+    #    return true
+    #  end
+    #end
     if self.why.blank?
-      errors.add(:email, 'appartient à un domaine non connu.
-            Veuillez donner des informations complémentaires.')
+      return true
+    #  errors.add(:email, 'appartient à un domaine non connu.
+    #      Veuillez donner des informations complémentaires.')
     else
       self.invalid_email = true
     end
